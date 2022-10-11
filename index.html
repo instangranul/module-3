@@ -1,170 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+<head>
   <title>Bootstrap Example</title>
-  
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./Bootstrap Example_files/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./Bootstrap Example_files/style.css">
-  <script src="./Bootstrap Example_files/jquery.min.js.indir"></script>
-  <script src="./Bootstrap Example_files/bootstrap.min.js.indir"></script>
-<link type="text/css" rel="stylesheet" charset="UTF-8" href="./Bootstrap Example_files/translateelement.css"><style>@import url(https://fonts.googleapis.com/css2?family=Inter&display=swap);</style><style>
-</style><style>/* Toggle A */
-input:checked ~ .dot {
-    transform: translateX(100%);
-    background-color: #48bb78;
-}
-
-/* Toggle B */
-input:checked ~ .dot {
-    transform: translateX(100%);
-    background-color: #48bb78;
-}</style><style>.eLang-loader-container {
-  width: 130px;
-  height: 41px;
-  background-color: #fff;
-  border-radius: 4px;
-  position: relative;
-}
-.eLang-loader-arrow {
-  position: absolute;
-  bottom: -11px;
-  color: #fff;
-  left: calc(50% - 15px);
-}
-.eLang-revert-arrow {
-  top: -11px;
-  transform: rotate(180deg);
-}
-.eLang-loader-container-dark {
-  background-color: #262835;
-}
-.eLang-loader-arrow-dark {
-  color: #262835;
-}
-.eLang-loader {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  position: relative;
-  -webkit-animation: loading 0.45s 0.15s ease alternate infinite;
-  animation: loading 0.45s 0.15s ease alternate infinite;
-  margin: 0 auto;
-}
-
-.eLang-loader:after,
-.eLang-loader:before {
-  content: '';
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  animation: loading 0.45s ease alternate infinite;
-  -webkit-animation: loading 0.45s ease alternate infinite;
-}
-
-.eLang-loader-dark {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  position: relative;
-
-  -webkit-animation: loading-dark 0.45s 0.15s ease alternate infinite;
-  animation: loading-dark 0.45s 0.15s ease alternate infinite;
-  margin: 0 auto;
-}
-
-.eLang-loader-dark:after,
-.eLang-loader-dark:before {
-  content: '';
-  position: absolute;
-
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  animation: loading-dark 0.45s ease alternate infinite;
-  -webkit-animation: loading-dark 0.45s ease alternate infinite;
-}
-
-.eLang-loader:before {
-  left: -20px;
-  animation-delay: 0s;
-}
-
-.eLang-loader:after {
-  right: -20px;
-  animation-delay: 0.4s;
-}
-
-.eLang-loader-dark:before {
-  left: -20px;
-  animation-delay: 0s;
-}
-
-.eLang-loader-dark:after {
-  right: -20px;
-  animation-delay: 0.4s;
-}
-
-@keyframes loading {
-  0% {
-    box-shadow: 0 15px 0 -15px rgba(79, 110, 253, 1);
-  }
-  100% {
-    box-shadow: 0 15px 0 rgba(79, 110, 253, 1);
-  }
-}
-
-@-webkit-keyframes loading {
-  0% {
-    box-shadow: 0 15px 0 -15px rgba(79, 110, 253, 1);
-  }
-  100% {
-    box-shadow: 0 15px 0 rgba(79, 110, 253, 1);
-  }
-}
-@keyframes loading-dark {
-  0% {
-    box-shadow: 0 15px 0 -15px rgba(115, 139, 251, 1);
-  }
-  100% {
-    box-shadow: 0 15px 0 rgba(115, 139, 251, 1);
-  }
-}
-
-@-webkit-keyframes loading-dark {
-  0% {
-    box-shadow: 0 15px 0 -15px rgba(115, 139, 251, 1);
-  }
-  100% {
-    box-shadow: 0 15px 0 rgba(115, 139, 251, 1);
-  }
-}
-</style></head>
-<body class="vsc-initialized">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="https://akshat-o5.github.io/Module-3-Coding-Assignment/#">Food, LLC</a>
+      <a class="navbar-brand" href="#" >Food, LLC</a>
     </div>
-    <div class="navbar-collapse collapse" id="myNavbar" aria-expanded="false" style="height: 1px;">
+    <div class="collapse navbar-collapse" id="myNavbar">
     
-      <ul class="nav navbar-nav navbar-right">
-        <li style="">
-        <a href="https://akshat-o5.github.io/Module-3-Coding-Assignment/#"> 
+      <ul class="nav navbar-nav navbar-right" >
+        <li style>
+        <a href="#" > 
         <span class="glyphicon glyphicon-cutlery"></span> chicken</a>
         </li>
         <li>
-        <a href="https://akshat-o5.github.io/Module-3-Coding-Assignment/#">
+        <a href="#" >
         <span class="glyphicon glyphicon-info-sign"></span> beef</a>
         </li>
         <li>
-        <a href="https://akshat-o5.github.io/Module-3-Coding-Assignment/#">
+        <a href="#">
         <span class="glyphicon glyphicon-certificate"></span> sushi</a>
         </li>
       </ul>
@@ -181,13 +50,12 @@ input:checked ~ .dot {
       <div class="col-md-12 col-sm-12 col-xs-12">
             
             <p id="chickstory">
-          </p><h2>Chicken</h2>
+          <h2>Chicken</h2>
               He heard quiet steps behind him. That didn't bode well. Who could be following him this late at night and in this deadbeat part of town? And at this particular moment, just after he pulled off the big time and was making off with the greenbacks. Was there another crook who'd had the same idea, and was now watching him and waiting for a chance to grab the fruit of his labour? Or did the steps behind him mean that one of many law officers in town was on to him and just waiting to pounce and snap those cuffs on his wrists? He nervously looked all around. Suddenly he saw the alley. Like lightning he darted off to the left and disappeared between the two warehouses almost falling over the bin lying in the middle of the pavement. He tried to nervously tap his way along in the inky darkness and suddenly stiffened: it was a dead-end, he would have to go back the way he had come. The steps got louder and louder, he saw the black outline of a figure coming around the corner. Is this the end of the line? he thought pressing himself back against the wall trying to make himself invisible in the dark, was all that planning and energy wasted? He was dripping with sweat now, cold and wet, he could smell the fear coming off his clothes. Suddenly next to him, with a barely noticeable squeak, a door swung quietly to and fro in the night's breeze. Could this be the haven he'd prayed for? Slowly he slid toward the door, pressing himself more and more into the wall, into the dark, away from his enemy. Would this door save his hide?He heard quiet steps behind him. That didn't bode well. Who could be following him this late at night and in this deadbeat part of town? And at this particular moment, just after he pulled off the big time and was making off with the greenbacks. Was there another crook who'd had the same idea, and was now watching him and waiting for a chance to grab the fruit of his labour? Or did the steps behind him mean that one of many law officers in town was on to him and just waiting to pounce and snap those cuffs on his wrists? He nervously looked all around. Suddenly he saw the alley. Like lightning he darted off to the left and disappeared between the two warehouses almost falling over the bin lying in the middle of the pavement. He tried to nervously tap his way along in the inky darkness and suddenly stiffened: it was a dead-end, he would have to go back the way he had come. The steps got louder and louder, he saw the black outline of a figure coming around the corner. Is this the end of the line? he thought pressing himself back against the wall trying to make himself invisible in the dark, was all that planning and energy wasted? He was dripping with sweat now, cold and wet, he could smell the fear coming off his clothes. Suddenly next to him, with a barely noticeable squeak, a door swung quietly to and fro in the night's breeze. Could this be the haven he'd prayed for? Slowly he slid toward the door, pressing himself more and more into the wall, into the dark, away from his enemy. Would this door save his hide?He heard quiet steps behind him. That didn't bode well. Who could be following him this late at night and in this deadbeat part of town? And at this particular moment, just after he pulled off the big time and was making off with the greenbacks. Was there another crook who'd had the same idea, and was now watching him and waiting for a chance to grab the fruit of his labour? Or did the steps behind him mean that one of many law officers in town was on to him and just waiting to pounce and snap those cuffs on his wrists? He nervously looked all around. Suddenly he saw the alley. Like lightning he darted off to the left and disappeared between the two warehouses almost falling over the bin lying in the middle of the pavement. He tried to nervously tap his way along in the inky darkness and suddenly stiffened: it was a dead-end, he would have to go back the way he had come. The steps got louder and louder, he saw the black outline of a figure coming around the corner. Is this the end of the line? he thought pressing himself back against the wall trying to make himself invisible in the dark, was all that planning and energy wasted? He was dripping with sweat now, cold and wet, he could smell the fear coming off his clothes. Suddenly next to him, with a barely noticeable squeak, a door swung quietly to and fro in the night's breeze. Could this be the haven he'd prayed for? Slowly he slid toward the door, pressing himself more and more into the wall, into the dark, away from his enemy. Would this door save his hide?He heard quiet steps behind him. That didn't bode well. Who could be following him this late at night and in this deadbeat part of town? And at this particular moment, just after he pulled off the big time and was making off with the greenbacks. Was there another crook who'd had the same idea, and was now watching him and waiting for a chance to grab the fruit of his labour? Or did the steps behind him mean that one of many law officers in town was on to him and just waiting to pounce and snap those cuffs on his wrists? He nervously looked all around. Suddenly he saw the alley. Like lightning he darted off to the left and disappeared between the two warehouses almost falling over the bin lying in the middle of the pavement. He tried to nervously tap his way along in the inky darkness and suddenly stiffened: it was a dead-end, he would have to go back the way he had come. The steps got louder and louder, he saw the black outline of a figure coming around the corner. Is this the end of the line? he thought pressing himself back against the wall trying to make himself invisible in the dark, was all that planning and energy wasted? He was dripping with sweat now, cold and wet, he could smell the fear coming off his clothes. Suddenly next to him, with a barely noticeable squeak, a door swung quietly to and fro in the night's breeze. Could this be the haven he'd prayed for? Slowly he slid toward the door, pressing himself more and more into the wall, into the dark, away from his enemy. Would this door save his hide?
-            <p></p>
+            </p>
       </div>
     </div>
-</div><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./Bootstrap Example_files/translate_24dp.png" width="20" height="20" alt="Google Çeviri"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Orijinal metin</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Daha iyi bir çeviri ile katkıda bulunun</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+</div>
 
-
-
-<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div><div class="elangExtension"></div><div class="ReactModalPortal"></div></body></html>
+</body>
+</html>
